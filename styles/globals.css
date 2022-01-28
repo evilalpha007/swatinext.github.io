@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+    @apply min-h-screen;
+  }
+  ::selection {
+    @apply text-white bg-blue-600;
+  }
+}
+
+/* body{
+  background-color: #111827;
+} */
+
+/* Glassmorphism card effect */
+/* .card {
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(172, 183, 206, 0.14);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+} */
+
+
+/* Background styles */
+.card_container {
+  background-color: #111927;
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(220.75, 77%, 40%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+}
+
+/* Glassmorphism card effect */
+.card{
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+
+
+.card_category{
+
+  background: rgba( 208, 205, 205, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.lower_card_background {
+  background-color: #111927;
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(210.29, 77%, 44%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(217.80, 67%, 43%) 0, transparent 55%);
+}
+
+/* Glassmorphism card effect */
+/* .card {
+  backdrop-filter: blur(10px) saturate(88%);
+  -webkit-backdrop-filter: blur(10px) saturate(88%);
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+} */
+
